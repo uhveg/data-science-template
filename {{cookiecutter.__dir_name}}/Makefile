@@ -8,9 +8,6 @@ setup:
 	poetry install --no-root
 	poetry run pre-commit install
 	
-	@echo "Initializing DVC"
-	dvc init
-
 tests:
 	pytest
 
