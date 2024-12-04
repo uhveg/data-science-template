@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "{{coockiecutter.project_name}}"
+name = "{{cookiecutter.project_name}}"
 version = "0.0.1"
 description = ""
 authors = ["{{cookiecutter.author_name}}"]
 
 [tool.poetry.dependencies]
-python = "{{coockiecutter.compatible_python_versions}}"
+python = "{{cookiecutter.compatible_python_versions}}"
 pandas = "^2.2.3"
 hydra-core = "^1.1.1"
 dvc = { version = "^3.00.0", extras = ["s3"] }
